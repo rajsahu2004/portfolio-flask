@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width,initial-scale=1" name="viewport" />
+  <meta content="description" name="description" />
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="{{ url_for('static', filename='assets/apple-icon-180x180.png') }}" />
+  <link href="{{ url_for('static', filename='assets/favicon.ico') }}" rel="icon" />
+  <title>About</title>
+
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body class="">
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+  <!-- Add your content of header -->
+  <header>
+    <nav class="navbar  navbar-fixed-top navbar-default">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="{{ '/index.html' }}" title="">01 : Home</a></li>
+            <li><a href="{{ '/works.html' }}" title="">02 : Works</a></li>
+            <li><a href="{{ '/about.html' }}" title="">03 : About me</a></li>
+            <li><a href="{{ '/contact.html' }}" title="">04 : Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">03 : About me</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-md-12 col-md-6">
+                  <h3>Hi there!</h3>
+                  <p>
+                    A machine learning enthusiast who loves to visualize data and plot them. 
+                    More interested in deep learning and hope to find solutions for real-life problems and make work easier in Geophysics with the help of Machine Learning. Also, good experience in Web development. A guitar lover and badminton player. Always ready to tackle new problems with new solutions.
+                  </p>
+                  <h3>What tech stack do you know?</h3>
+                  <p>
+                    I am proficient in a versatile tech stack, including languages such as C++ and Python. I have experience in web technologies like JavaScript, HTML, CSS, NodeJS, and Flask, along with SQL for database management. 
+                    My toolkit comprises Git/GitHub, Unix Shell, VS Code, and Colab, enabling effective development and collaboration. 
+                    I'm well-versed in powerful libraries like TensorFlow, Keras, PyTorch, OpenCV, Scikit-Learn, Numpy, Matplotlib, and Pandas, empowering various machine learning, data analysis, and visualization tasks.
+                  </p>
+
+                  <h3>What do you do ?</h3>
+                  <p>
+                    Short answer: Student <br />
+                    Current: Integrated Master of Technology in Applied Geophysics at IIT (ISM) Dhanbad [2021-2026]<br />
+                    Earlier: Research Intern at Geovision.AI, IIT Bombay [May - July 2023] <br />
+                    School: Stepping Stone Senior Secondary School, Chandigarh [2019-2021] <br />
+                    Earlier School: Kendriya Vidyalaya, Chandigarh [2013-2019] <br />
+                  </p>
+                </div>
+                <div class="col-xs-12 col-md-5" style="padding: 40px;">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/portfolio-flask.appspot.com/o/profil.jpg?alt=media&token=72b30c0f-3083-4391-889c-f0beed5a901c"
+                    class="img-responsive" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>
+            &copy;Raj Sahu | 2023
+            <a href="/contact.html" title="Contact Me">Contact</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navActivePage();
+    });
+  </script>
+
+  <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+
+</html>
