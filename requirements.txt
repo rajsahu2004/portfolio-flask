@@ -1,4 +1,4 @@
 flask
 email
 smtplib
-dotenv
+python-dotenv
