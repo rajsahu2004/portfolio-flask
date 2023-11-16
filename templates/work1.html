@@ -7,7 +7,7 @@
     <meta content="description" name="description" />
     <meta name="google" content="notranslate" />
     <meta
-      content="Mashup templates have been developped by Orson.io team"
+      content="Predictstock"
       name="Raj Sahu"
     />
 
@@ -23,7 +23,7 @@
       href="{{ url_for('static', filename='assets/favicon.ico') }}"
       rel="icon"
     />
-    <title>Thank You</title>
+    <title>Predictstock</title>
 
     <link
       type="text/css"
@@ -61,28 +61,50 @@
               <li><a href="{{ '/about.html' }}" title="">03 : About me</a></li>
               <li><a href="{{ '/contact.html' }}" title="">04 : Contact</a></li>
             </ul>
+
+            <ul
+              class="nav navbar-nav navbar-right navbar-small visible-md visible-lg"
+            >
+              <li><a href="./work1.html" title="" class="active">001</a></li>
+              <li><a href="./work2.html" title="">002</a></li>
+              <li><a href="./work3.html" title="">003</a></li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
-
     <div class="section-container">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
-            <div class="section-container-spacer text-center">
-              <h1 class="h2">04 : Contact me</h1>
-            </div>
-
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                Thank you! I will get in touch with you shortly!
+          <div class="col-xs-12"> 
+            <img
+              src="static/assets/images/proj1-1.png"
+              class="img-responsive"
+              alt=""
+            />
+            <div class="card-container">
+              <div class="text-center">
+                <h1 class="h2">001 : Predictstock</h1>
+              </div>
+              <p>
+                Predictstock is a Python-based web application that leverages machine learning, data analysis,
+                and interactive visualization to predict and analyze stock prices.
+                With Predictstock, you can gain valuable insights into historical stock
+                price trends and make informed decisions for your investment strategies.
+              </p>
+              <ul>
+                <li>Historical Data Analysis: Explore historical stock price data for the past 15 years, including summary statistics.</li>
+                <li>Interactive Candlestick Charts: Visualize stock price movements over time using interactive candlestick charts.</li>
+                <li>Moving Averages: Overlay moving average lines (e.g., 100-day and 200-day) on price charts for technical analysis.</li>
+                <li>Machine Learning Model: Utilize a pre-trained machine learning model to predict future stock prices.</li>
+                <li>Accuracy Assessment: Evaluate the accuracy of the model's predictions using metrics like Root Mean Square Error (RMSE) and median accuracy.</li>
+              </ul>
+              <div class="btn-container text-center">
+                <a href="https://github.com/rajsahu2004/predictstock" target="_blank" class="btn btn-primary">GitHub</a>
+                <a href="https://predictstock.streamlit.app/" target="_blank" class="btn btn-primary">Website</a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
     <footer class="footer-container text-center">
     <div class="container">
